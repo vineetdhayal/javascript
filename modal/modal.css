@@ -1,0 +1,16 @@
+.modal {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    margin: 15% auto;
+    padding: 20px;
+}

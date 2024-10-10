@@ -1,0 +1,23 @@
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.right {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.right div {
+    height: 300px;
+    width: 300px;
+}

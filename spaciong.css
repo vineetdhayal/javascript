@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feedback-container {
+width: 400px;
+padding: 20px;
+margin: auto;
+margin-top: 50px;
+}
+
+.feedback-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;   
+}
+
+.feedback-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.feedback-button {
+    width: 100%;
+}
+
+.feedback-button:first-child {
+    
+}

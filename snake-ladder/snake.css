@@ -1,0 +1,24 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 10px;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+
+.cell {
+    border: 1px solid black;
+}
+
+.snake {
+    background-color: red;
+}
+
+.ladder {
+    background-color: green;
+}
+
+.active {
+    background-color: yellow;
+}

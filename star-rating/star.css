@@ -1,0 +1,20 @@
+.star-rating {
+    color: #bebebe;
+    font-size: 2em;
+}
+
+.my-star::before {
+    content: "\002605";
+}
+
+.my-star {
+    font-style: unset !important;
+}
+
+.is-active {
+    color: yellow;
+}
+
+.my-star:not(.is-active):hover {
+    color: yellow;
+}

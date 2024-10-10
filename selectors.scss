@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.blue > span:hover {
+    color: red;
+}
+
+:checked {
+    margin: 10px;
+}
+
+@mixin button-base() {
+    &:hover {
+
+    }
+
+}

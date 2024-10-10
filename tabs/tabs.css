@@ -1,0 +1,11 @@
+.tabContent {
+    display: none;
+}
+
+.select {
+    background-color: green;
+}
+
+.notSelect {
+    background-color: gray;
+}

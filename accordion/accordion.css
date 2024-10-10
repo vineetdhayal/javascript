@@ -1,0 +1,21 @@
+.accordion-header {
+    background-color: blue;
+    display: flex;
+    width: 300px;
+    gap: 200px;
+}
+
+.accordion-header:hover {
+    cursor: pointer;
+}
+
+.accordion-title {
+    cursor: pointer;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.accordion-title:hover {
+    background-color: gray;
+}

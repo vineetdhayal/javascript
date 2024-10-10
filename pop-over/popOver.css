@@ -1,0 +1,16 @@
+.popover-content {
+    opacity: 0;
+}
+
+.popover-content::before {
+    visibility: hidden;
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+
+.popver-wrapper:hover .popover-content {
+    visibility: visible;
+    z-index: 10;
+    opacity: 1;
+}

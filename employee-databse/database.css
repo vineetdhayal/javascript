@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header>button {
+    border-radius: 20px;
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    padding-block: 20px;
+}
+
+.header>button:hover {
+    background-color: goldenrod;
+}
+
+.employees {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.employees>div {
+    border: 1px solid black;
+    height: 400px;
+}
+
+.employees_names {
+    width: 30%;
+}
+
+.employees_single {
+    width: 70%;
+}
+
+.employees_namelist {
+    display: flex;
+    flex-direction: column;
+}
+
+.employees_namelistitem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+}

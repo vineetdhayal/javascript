@@ -1,0 +1,29 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputBox {
+    border: 1px solid rgb(209, 151, 151);
+    position: relative;
+}
+
+.inputBox > input {
+    border: 0;
+    padding: 10px;
+    width: calc(100% - 20px);
+}
+
+.inputBox > input:focus-visible {
+    outline: none;
+}
+
+.crossIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}

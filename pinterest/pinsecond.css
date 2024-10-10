@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 230px;
+}
+
+.item {
+    position: absolute;
+    background-color: blueviolet;
+    color: blue;
+    display: flex;
+    width: 70px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 500px) {
+    body {
+        width: 50%;
+    }
+}
+
+.adjustWidth {
+    position: relative;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+
+.formAbsolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen {
+    width>
+}
